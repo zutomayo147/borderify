@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+0	manifest.json	/^                "*:\/\/*.mozilla.org\/*"$/;"	s	array:content_scripts.0.matches
+0	manifest.json	/^                "borderify.js"$/;"	s	array:content_scripts.0.js
+0	manifest.json	/^        {$/;"	o	array:content_scripts
+0	manifest.json	/^    "activeTab"$/;"	s	array:permissions
+0	manifest.json	/^    "beasts\/frog.jpg",$/;"	s	array:web_accessible_resources
+1	manifest.json	/^    "beasts\/turtle.jpg",$/;"	s	array:web_accessible_resources
+2	manifest.json	/^    "beasts\/snake.jpg"$/;"	s	array:web_accessible_resources
+48	manifest.json	/^        "48": "icons\/border-48.png"$/;"	s	object:icons
+48	manifest.json	/^    "48": "icons\/beasts-48.png"$/;"	s	object:icons
+applications	manifest.json	/^    "applications": {$/;"	o
+browser_action	manifest.json	/^  "browser_action": {$/;"	o
+content_scripts	manifest.json	/^    "content_scripts": [$/;"	a
+default_icon	manifest.json	/^    "default_icon": "icons\/beasts-32.png",$/;"	s	object:browser_action
+default_popup	manifest.json	/^    "default_popup": "popup\/choose_beast.html"$/;"	s	object:browser_action
+default_title	manifest.json	/^    "default_title": "Beastify",$/;"	s	object:browser_action
+description	manifest.json	/^    "description": "Adds a solid red border to all webpages matching mozilla.org.",$/;"	s
+description	manifest.json	/^  "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast./;"	s
+gecko	manifest.json	/^        "gecko": {$/;"	o	object:applications
+homepage_url	manifest.json	/^  "homepage_url": "https:\/\/github.com\/mdn\/webextensions-examples\/tree\/master\/beastify",$/;"	s
+icons	manifest.json	/^    "icons": {$/;"	o
+icons	manifest.json	/^  "icons": {$/;"	o
+id	manifest.json	/^            "id": "borderify@example.com"$/;"	s	object:applications.gecko
+js	manifest.json	/^            "js": [$/;"	a	object:content_scripts.0
+manifest_version	manifest.json	/^    "manifest_version": 2,$/;"	n
+manifest_version	manifest.json	/^  "manifest_version": 2,$/;"	n
+matches	manifest.json	/^            "matches": [$/;"	a	object:content_scripts.0
+name	manifest.json	/^    "name": "Borderify",$/;"	s
+name	manifest.json	/^  "name": "Beastify",$/;"	s
+permissions	manifest.json	/^  "permissions": [$/;"	a
+version	manifest.json	/^    "version": "1.0",$/;"	s
+version	manifest.json	/^  "version": "1.0",$/;"	s
+web_accessible_resources	manifest.json	/^  "web_accessible_resources": [$/;"	a
